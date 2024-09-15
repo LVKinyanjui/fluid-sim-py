@@ -5,15 +5,15 @@ This repository contains a Python implementation of modelling real-time fluid dy
 To install, press the green "Code" button, download, and extract the zip. Then, navigate to the "dist" folder and run the main.exe file.
 
 ## Examples
-The simulation accurately predicts real world phenomena such as the [Kármán vortex street](https://en.wikipedia.org/wiki/K%C3%A1rm%C3%A1n_vortex_street).
+The simulation accurately predicts real world phenomena such as the [Kármán vortex street](https://en.wikipedia.org/wiki/K%C3%A1rm%C3%A1n_vortex_street),
 
 <img width="424" alt="vortex street" src="https://github.com/user-attachments/assets/f3239c8e-b90b-4a94-b4eb-8e1daea9d0f0">
 
-It also predicts why aerodynamic [airfoils](https://en.wikipedia.org/wiki/NACA_airfoil) generate lift for aircraft and birds.
+why aerodynamic [airfoils](https://en.wikipedia.org/wiki/NACA_airfoil) generate lift for aircraft and birds,
 
 <img width="395" alt="image" src="https://github.com/user-attachments/assets/0c9f1cf7-23e8-4971-bb4a-057de31113c6">
 
-Lastly, it predicts the transition from laminar to turbulent one might find from burning [incense](https://en.wikipedia.org/wiki/Incense) (actually the motivation for this project).
+and the transition from laminar to turbulent one might find from burning [incense](https://en.wikipedia.org/wiki/Incense) (actually the [motivation](https://en.wikipedia.org/wiki/Boswellia_papyrifera) for this project).
 
 <img width="214" alt="smoke" src="https://github.com/user-attachments/assets/8c57c418-2179-417d-8feb-e6bd3eed7257">
 
