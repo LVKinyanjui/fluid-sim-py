@@ -21,7 +21,7 @@ We need to ensure we have the right dependencies required for the project to run
     source venv/bin/activate
     pip install -r requirements.txt
 ```
-3. (Important) To ensure no errors occur when pygame tries to load shared object files run.
+3. (Important) To ensure no errors occur when pygame tries to load shared object files run For more information follow the conversation [here](https://stackoverflow.com/a/72200748).
 
 ```
 export LD_PRELOAD=/usr/lib/x86_64-linux-gnu/libstdc++.so.6
