@@ -21,8 +21,13 @@ We need to ensure we have the right dependencies required for the project to run
     source venv/bin/activate
     pip install -r requirements.txt
 ```
+3. (Important) To ensure no errors occur when pygame tries to load shared object files run.
 
-3. Navigate to the "src" folder and run the main.py file.
+```
+export LD_PRELOAD=/usr/lib/x86_64-linux-gnu/libstdc++.so.6
+```
+
+4. Finally, navigate to the "src" folder and run the main.py file.
 
 ```
     cd src/
